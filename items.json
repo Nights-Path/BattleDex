@@ -1,0 +1,3336 @@
+[
+  {
+    "name": "Adamant Orb",
+    "cost": 0,
+    "category": "species-specific",
+    "attributes": [
+      "holdable"
+    ],
+    "fling_power": 60,
+    "fling_effect": null,
+    "description": "Held by dialga\n:   Holder's dragon- and steel-type moves have 1.2× their usual power.",
+    "short_description": "Boosts the damage from Dialga's Dragon-type and Steel-type moves by 20%.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Lustrous Orb",
+    "cost": 0,
+    "category": "species-specific",
+    "attributes": [
+      "holdable"
+    ],
+    "fling_power": 60,
+    "fling_effect": null,
+    "description": "Held by palkia\n:   Holder's dragon- and water-type moves have 1.2× their usual power.",
+    "short_description": "Boosts the damage from Palkia's Dragon-type and Water-type moves by 20%.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Bright Powder",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held in battle\n:   Moves targeting the holder have 0.9× chance to hit.",
+    "short_description": "Held: Increases the holder's evasion by 1/9 (11 1/9%).",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "White Herb",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": "herb-effect",
+    "description": "Held in battle\n:   At the end of each turn, if any of the holder's stats have a negative stat modifier, the holder consumes this item to remove the modifiers from those stats.",
+    "short_description": "Held: Resets all lowered stats to normal at end of turn. Consumed after use.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": [
+      "at the end of each turn"
+    ],
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Macho Brace",
+    "cost": 3000,
+    "category": "effort-training",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 60,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder would gain effort due to battle, it gains double that effort instead.\n\nHeld in battle\n:   Holder has half its Speed.",
+    "short_description": "Held: Holder gains double effort values from battles, but has halved Speed in battle.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Exp. Share",
+    "cost": 0,
+    "category": "training",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   Experience is split across two groups: Pokémon who participated in battle, and Pokémon holding this item.  Each Pokémon earns experience as though it had battled alone, divided by the number of Pokémon in its group, then divided by the number of groups. Pokémon holding this item who also participated in battle effectively earn experience twice.\n\n    Fainted Pokémon never earn experience, and empty groups are\nignored; thus, if a single Pokémon is holding this item and the only Pokémon who battled faints from explosion, the holder will gain full experience.",
+    "short_description": "Held: Half the experience from a battle is split between Pokémon holding this item.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Quick Claw",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 80,
+    "fling_effect": null,
+    "description": "Held in battle\n:   Whenever the holder attempts to use a move, it has a 3/16 chance to act first among moves with the same priority.  If multiple Pokémon have this effect at the same time, Speed is the tie-breaker as normal, but the effect of trick room is ignored.",
+    "short_description": "Held: Holder has a 3/16 (18.75%) chance to move first.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Offensive",
+      "subcategory": "Priority",
+      "details": {}
+    }
+  },
+  {
+    "name": "Soothe Bell",
+    "cost": 4000,
+    "category": "training",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder would earn happiness for any reason, it earns twice that amount instead.",
+    "short_description": "Held: Doubles the happiness earned by the holder.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Mental Herb",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": "herb-effect",
+    "description": "Held in battle\n:   When the holder is attracted, it consumes this item to cure the attraction.",
+    "short_description": "Held: Consumed to cure infatuation. Gen V: Also removes Taunt, Encore, Torment, Disable, and Cursed Body.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Choice Band",
+    "cost": 4000,
+    "category": "choice",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held in battle\n:   Holder has 1.5× its Attack.  When the holder attempts to use a move, all its other moves are disabled until it leaves battle or loses this item.\n\n    The restriction ends even if this item is swapped for another Choice item\nvia trick or switcheroo.",
+    "short_description": "Held: Increases Attack by 50%, but restricts the holder to only one move.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Silver Powder",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held in battle\n:   Holder's bug-type moves have 1.2× their power.\n",
+    "short_description": "Held: Bug-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Amulet Coin",
+    "cost": 10000,
+    "category": "training",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held\n:   If the holder participated in a trainer battle, the trainer earns twice the usual prize money.  This effect applies even if the holder fainted.\n\n    This effect does not stack with any other similar effect.",
+    "short_description": "Held: Doubles the money earned from a battle. Does not stack with Luck Incense.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Cleanse Tag",
+    "cost": 5000,
+    "category": "training",
+    "attributes": [
+      "holdable"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held by lead Pokémon: Prevents wild battles with Pokémon that are lower level than the holder.",
+    "short_description": "Prevents wild encounters of level lower than your party's lead Pokémon.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Disruption",
+      "details": {}
+    }
+  },
+  {
+    "name": "Soul Dew",
+    "cost": 0,
+    "category": "species-specific",
+    "attributes": [
+      "holdable"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held by Latias or Latios: Increases the holder's Special Attack and Special Defense by 50%.",
+    "short_description": "Raises Latias and Latios's Special Attack and Special Defense by 50%.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Deep Sea Tooth",
+    "cost": 2000,
+    "category": "species-specific",
+    "attributes": [
+      "holdable"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held by Clamperl: Doubles the holder's Special Attack.  Evolves the holder into Huntail when traded.",
+    "short_description": "Doubles Clamperl's Special Attack. Traded on a Clamperl: Holder evolves into Huntail.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Deep Sea Scale",
+    "cost": 2000,
+    "category": "species-specific",
+    "attributes": [
+      "holdable"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held by Clamperl: Doubles the holder's Special Defense.  Evolves the holder into Gorebyss when traded.",
+    "short_description": "Doubles Clamperl's Special Defense. Traded on a Clamperl: Holder evolves into Gorebyss.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Smoke Ball",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: In wild battles, attempts to run away on the holder's turn will always succeed.",
+    "short_description": "Held: Allows the Holder to escape from any wild battle.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Everstone",
+    "cost": 3000,
+    "category": "training",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Prevents the holder from evolving naturally.  Evolution initiated by the trainer (Stones, etc) will still work.",
+    "short_description": "Held: Prevents level-based evolution from occuring.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Disruption",
+      "details": {}
+    }
+  },
+  {
+    "name": "Focus Band",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: If the holder is attacked for regular damage that would faint it, this item has a 10% chance to prevent the holder's HP from lowering below 1.",
+    "short_description": "Held: Holder has 10% chance to survive attacks or self-inflicted damage at 1 HP.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Lucky Egg",
+    "cost": 10000,
+    "category": "training",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Increases any Exp the holder gains by 50%.",
+    "short_description": "Held: Increases EXP earned in battle by 50%.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Scope Lens",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Raises the holder's critical hit counter by 1.",
+    "short_description": "Held: Raises the holder's critical hit ratio by one stage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Metal Coat",
+    "cost": 2000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Steel moves by 20%.\nHeld by Onix or Scyther: Evolves the holder into Steelix or Scizor when traded, respectively.",
+    "short_description": "Held: Steel-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Leftovers",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Heals the holder by 1/16 its max HP at the end of each turn.",
+    "short_description": "Held: Restores 1/16 (6.25%) holder's max HP at the end of each turn.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": [
+      "at the end of each turn"
+    ],
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Healing",
+      "details": {
+        "hp_restore": "1/3"
+      }
+    }
+  },
+  {
+    "name": "Light Ball",
+    "cost": 1000,
+    "category": "species-specific",
+    "attributes": [
+      "holdable"
+    ],
+    "fling_power": 30,
+    "fling_effect": "paralyze",
+    "description": "Held by Pikachu: Doubles the holder's initial Attack and Special Attack.",
+    "short_description": "Doubles Pikachu's Attack and Special Attack. Breed on Pikachu or Raichu: Pichu Egg will have Volt Tackle.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Soft Sand",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Ground moves by 20%.",
+    "short_description": "Held: Ground-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Hard Stone",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 100,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Rock moves by 20%.",
+    "short_description": "Held: Rock-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Miracle Seed",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Grass moves by 20%.",
+    "short_description": "Held: Grass-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Black Glasses",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Dark moves by 20%.",
+    "short_description": "Held: Dark-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Black Belt",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Fighting moves by 20%.",
+    "short_description": "Held: Fighting-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Magnet",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Electric moves by 20%.",
+    "short_description": "Held: Electric-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Mystic Water",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Water moves by 20%.",
+    "short_description": "Held: Water-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Sharp Beak",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 50,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Flying moves by 20%.",
+    "short_description": "Held: Flying-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Poison Barb",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 70,
+    "fling_effect": "poison",
+    "description": "Held: Increases the power of the holder's Poison moves by 20%.",
+    "short_description": "Held: Poison-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Never-Melt Ice",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Ice moves by 20%.",
+    "short_description": "Held: Ice-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Spell Tag",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Ghost moves by 20%.",
+    "short_description": "Held: Ghost-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Twisted Spoon",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Psychic moves by 20%.",
+    "short_description": "Held: Psychic-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Charcoal",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Fire moves by 20%.",
+    "short_description": "Held: Fire-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Dragon Fang",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 70,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Dragon moves by 20%.",
+    "short_description": "Held: Dragon-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Silk Scarf",
+    "cost": 1000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Normal moves by 20%.",
+    "short_description": "Held: Normal-Type moves from holder do 20% more damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Shell Bell",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Heals the holder by 1/8 of any damage it inflicts.",
+    "short_description": "Held: Holder receives 1/8 of the damage it deals when attacking.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Healing",
+      "details": {
+        "hp_restore": "1/3"
+      }
+    }
+  },
+  {
+    "name": "Sea Incense",
+    "cost": 2000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Water moves by 20%.",
+    "short_description": "Held: Water-Type moves from holder do 20% more damage. Breeding: Marill or Azumarill beget an Azurill Egg.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Lax Incense",
+    "cost": 5000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the holder's Evasion by 5%.",
+    "short_description": "Held: Holder's evasion is increased by 5%. Breeding: Wobbuffet begets a Wynaut Egg.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Lucky Punch",
+    "cost": 1000,
+    "category": "species-specific",
+    "attributes": [
+      "holdable"
+    ],
+    "fling_power": 40,
+    "fling_effect": null,
+    "description": "Held by Chansey: Raises the holder's critical hit counter by 2.",
+    "short_description": "Raises Chansey's critical hit ratio by two stages.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Metal Powder",
+    "cost": 1000,
+    "category": "species-specific",
+    "attributes": [
+      "holdable"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held by Ditto: Increases the holder's initial Defense and Special Defense by 50%.",
+    "short_description": "Raises Ditto's Defense and Special Defense by 50%. The boost is lost after transforming.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Thick Club",
+    "cost": 1000,
+    "category": "species-specific",
+    "attributes": [
+      "holdable"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held by Cubone or Marowak: Doubles the holder's Attack.",
+    "short_description": "Doubles Cubone or Marowak's Attack.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Leek",
+    "cost": 1000,
+    "category": "species-specific",
+    "attributes": [
+      "holdable"
+    ],
+    "fling_power": 60,
+    "fling_effect": null,
+    "description": "Held by Farfetch'd: Raises the holder's critical hit counter by 2.",
+    "short_description": "Raises Farfetch'd's critical hit ratio by two stages.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Red Scarf",
+    "cost": 100,
+    "category": "scarves",
+    "attributes": [
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the holder's Coolness during a Super Contest's Visual Competition.",
+    "short_description": "Raises the holder's Coolness while in a contest.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Blue Scarf",
+    "cost": 100,
+    "category": "scarves",
+    "attributes": [
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the holder's Beauty during a Super Contest's Visual Competition.",
+    "short_description": "Raises the holder's Beauty while in a contest.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Pink Scarf",
+    "cost": 100,
+    "category": "scarves",
+    "attributes": [
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the holder's Cuteness during a Super Contest's Visual Competition.",
+    "short_description": "Raises the holder's Cuteness while in a contest.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Green Scarf",
+    "cost": 100,
+    "category": "scarves",
+    "attributes": [
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the holder's Smartness during a Super Contest's Visual Competition.",
+    "short_description": "Raises the holder's Smartness while in a contest.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Yellow Scarf",
+    "cost": 100,
+    "category": "scarves",
+    "attributes": [
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the holder's Toughness during a Super Contest's Visual Competition.",
+    "short_description": "Raises the holder's Toughness while in a contest.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Wide Lens",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the accuracy of any move the holder uses by 10% (multiplied; i.e. 70% accuracy is increased to 77%).",
+    "short_description": "Held: Provides a 1/10 (10%) boost in accuracy to the holder.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Muscle Band",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's physical moves by 10%.",
+    "short_description": "Held: Boosts the damage of physical moves used by the holder by 10%.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Wise Glasses",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's special moves by 10%.",
+    "short_description": "Held: Boosts the damage of special moves used by the holder by 1/10 (10%).",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Expert Belt",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: When the holder hits with a super-effective move, its power is raised by 20%.",
+    "short_description": "Held: Holder's Super Effective moves do 20% extra damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Light Clay",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: The holder's Reflect and Light Screen will create effects lasting for eight turns rather than five.  As this item affects the move rather than the barrier itself, the effect is not lost if the holder leaves battle or drops this item.",
+    "short_description": "Held: Light Screen and Reflect used by the holder last 8 rounds instead of 5.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Life Orb",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Damage from the holder's moves is increased by 30%.  On each turn the holder uses a damage-inflicting move, it takes 10% its max HP in damage.",
+    "short_description": "Held: Holder's moves inflict 30% extra damage, but cost 10% max HP.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Power Herb",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Whenever the holder uses a move that requires a turn to charge first (Bounce, Dig, Dive, Fly, Razor Wind, Skull Bash, Sky Attack, or Solarbeam), this item is consumed and the charge is skipped.  Skull Bash still provides a Defense boost.",
+    "short_description": "Held: Both turns of a two-turn charge move happen at once. Consumed upon use.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Toxic Orb",
+    "cost": 4000,
+    "category": "bad-held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": "badly-poison",
+    "description": "Held: Badly poisons the holder at the end of each turn.",
+    "short_description": "Held: Inflicts Toxic on the holder at the end of the turn. Activates after Poison damage would occur.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": [
+      "at the end of each turn"
+    ],
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Flame Orb",
+    "cost": 4000,
+    "category": "bad-held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": "burn",
+    "description": "Held: Burns the holder at the end of each turn.",
+    "short_description": "Held: Inflicts Burn on the holder at the end of the turn. Activates after Burn damage would occur.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": [
+      "at the end of each turn"
+    ],
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Quick Powder",
+    "cost": 1000,
+    "category": "species-specific",
+    "attributes": [
+      "holdable"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held by Ditto: Doubles the holder's initial Speed.",
+    "short_description": "Doubles Ditto's Speed when held. The boost is lost after transforming.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Focus Sash",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: If the holder has full HP and is attacked for regular damage that would faint it, this item is consumed and prevents the holder's HP from lowering below 1.  This effect works against multi-hit attacks, but does not work against the effects of Doom Desire or Future Sight.",
+    "short_description": "Held: Holder survives any single-hit attack at 1 HP if at max HP, then the item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Disruption",
+      "details": {}
+    }
+  },
+  {
+    "name": "Zoom Lens",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Raises the holder's Accuracy by 20% when it goes last.\nIngame description is incorrect.",
+    "short_description": "Held: Provides a 1/5 (20%) boost in accuracy if the holder moves after the target.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Metronome",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Each time the holder uses the same move consecutively, its power is increased by another 10% of its original, to a maximum of 100%.",
+    "short_description": "Held: Consectutive uses of the same attack have a cumulative damage boost of 10%. Maximum 100% boost.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Iron Ball",
+    "cost": 4000,
+    "category": "bad-held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 130,
+    "fling_effect": null,
+    "description": "Held: Decreases the holder's Speed by 50%.  If the holder is Flying or has Levitate, it takes regular damage from Ground attacks and is suspectible to Spikes and Toxic Spikes.",
+    "short_description": "Held: Holder's Speed is halved. Negates all Ground-type immunities, and makes Flying-types take neutral damage from Ground-type moves. Arena Trap. Spikes, and Toxic Spikes affect the holder.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Lagging Tail",
+    "cost": 4000,
+    "category": "bad-held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: The holder will go last within its move's priority bracket, regardless of Speed.  If multiple Pokémon within the same priority bracket are subject to this effect, the slower Pokémon will go first.  The holder will move after Pokémon with Stall.  If the holder has Stall, Stall is ignored.  This item ignores Trick Room.",
+    "short_description": "Held: Holder moves last in its priority bracket.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": [
+      "if multiple pokémon within the same priority bracket are subject to this effect, the slower pokémon will go first"
+    ],
+    "drawbacks": null,
+    "item_role": {
+      "category": "Offensive",
+      "subcategory": "Priority",
+      "details": {}
+    }
+  },
+  {
+    "name": "Destiny Knot",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: When the holder becomes Attracted, the Pokémon it is Attracted to becomes Attracted back.",
+    "short_description": "Held: Infatuates opposing Pokémon when holder is inflicted with infatuation.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Black Sludge",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: If the holder is Poison-type, restores 1/16 max HP at the end of each turn.  Otherwise, damages the holder by 1/16 its max HP at the end of each turn.",
+    "short_description": "Held: Poison-type holder recovers 1/16 (6.25%) max HP each turn. Non-Poison-Types take 1/8 (12.5%) max HP damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": [
+      "at the end of each turn"
+    ],
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Icy Rock",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 40,
+    "fling_effect": null,
+    "description": "Held: The holder's Hail will create a hailstorm lasting for eight turns rather than five.  As this item affects the move rather than the weather itself, the effect is not lost if the holder leaves battle or drops this item.",
+    "short_description": "Held: Hail by the holder lasts 8 rounds instead of 5.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Field Effects",
+      "subcategory": "Weather",
+      "details": {}
+    }
+  },
+  {
+    "name": "Smooth Rock",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: The holder's Sandstorm will create a sandstorm lasting for eight turns rather than five.  As this item affects the move rather than the weather itself, the effect is not lost if the holder leaves battle or drops this item.",
+    "short_description": "Held: Sandstorm by the holder lasts 8 rounds instead of 5.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Field Effects",
+      "subcategory": "Weather",
+      "details": {}
+    }
+  },
+  {
+    "name": "Heat Rock",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 60,
+    "fling_effect": null,
+    "description": "Held: The holder's Sunny Day will create sunshine lasting for eight turns rather than five.  As this item affects the move rather than the weather itself, the effect is not lost if the holder leaves battle or drops this item.",
+    "short_description": "Held: Sunny Day by the holder lasts 8 rounds instead of 5.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Field Effects",
+      "subcategory": "Weather",
+      "details": {}
+    }
+  },
+  {
+    "name": "Damp Rock",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 60,
+    "fling_effect": null,
+    "description": "Held: The holder's Rain Dance will create rain lasting for eight turns rather than five.  As this item affects the move rather than the weather itself, the effect is not lost if the holder leaves battle or drops this item.",
+    "short_description": "Held: Rain Dance by the holder lasts 8 rounds instead of 5.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Field Effects",
+      "subcategory": "Weather",
+      "details": {}
+    }
+  },
+  {
+    "name": "Grip Claw",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the duration of the holder's multiturn (2-5 turn) moves by three turns.",
+    "short_description": "Held: Holder's multi-turn trapping moves last 5 turns.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Choice Scarf",
+    "cost": 4000,
+    "category": "choice",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the holder's Speed by 50%, but restricts it to the first move it uses until it leaves battle or loses this item.  If this item is swapped for another Choice item via Trick or Switcheroo, the holder's restriction is still lifted, but it will again be restricted to the next move it uses.\n(Quirk: If the holder is switched in by U-Turn and it also knows U-Turn, U-Turn becomes its restricted move.)",
+    "short_description": "Held: Increases Speed by 50%, but restricts the holder to only one move.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Sticky Barb",
+    "cost": 4000,
+    "category": "bad-held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 80,
+    "fling_effect": null,
+    "description": "Held: Damaged the holder for 1/8 its max HP.  When the holder is struck by a contact move, damages the attacker for 1/8 its max HP; if the attacker is not holding an item, it will take this item.",
+    "short_description": "Held: Holder takes 1/8 (12.5%) its max HP at the end of each turn. When the holder is hit by a contact move, the attacking Pokémon takes 1/8 its max HP in damage and receive the item if not holding one.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Power Bracer",
+    "cost": 3000,
+    "category": "effort-training",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 70,
+    "fling_effect": null,
+    "description": "Held: Decreases the holder's Speed by 50%.  Whenever the holder gains Attack effort from battle, increases that effort by 4; this applies before the PokéRUS doubling effect.",
+    "short_description": "Held: Holder gains 4 Attack effort values, but has halved Speed in battle.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Power Belt",
+    "cost": 3000,
+    "category": "effort-training",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 70,
+    "fling_effect": null,
+    "description": "Held: Decreases the holder's Speed by 50%.  Whenever the holder gains Defense effort from battle, increases that effort by 4; this applies before the PokéRUS doubling effect.",
+    "short_description": "Held: Holder gains 4 Defense effort values, but has halved Speed in battle.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Power Lens",
+    "cost": 3000,
+    "category": "effort-training",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 70,
+    "fling_effect": null,
+    "description": "Held: Decreases the holder's Speed by 50%.  Whenever the holder gains Special Attack effort from battle, increases that effort by 4; this applies before the PokéRUS doubling effect.",
+    "short_description": "Held: Holder gains 4 Special Attack effort values, but has halved Speed in battle.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Power Band",
+    "cost": 3000,
+    "category": "effort-training",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 70,
+    "fling_effect": null,
+    "description": "Held: Decreases the holder's Speed by 50%.  Whenever the holder gains Special Defense effort from battle, increases that effort by 4; this applies before the PokéRUS doubling effect.",
+    "short_description": "Held: Holder gains 4 Special Defense effort values, but has halved Speed in battle.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Power Anklet",
+    "cost": 3000,
+    "category": "effort-training",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 70,
+    "fling_effect": null,
+    "description": "Held: Decreases the holder's Speed by 50%.  Whenever the holder gains Speed effort from battle, increases that effort by 4; this applies before the PokéRUS doubling effect.",
+    "short_description": "Held: Holder gains 4 Speed effort values, but has halved Speed in battle.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Power Weight",
+    "cost": 3000,
+    "category": "effort-training",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 70,
+    "fling_effect": null,
+    "description": "Held: Decreases the holder's Speed by 50%.  Whenever the holder gains HP effort from battle, increases that effort by 4; this applies before the PokéRUS doubling effect.",
+    "short_description": "Held: Holder gains 4 HP effort values, but has halved Speed in battle.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Shed Shell",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: The holder is unaffected by any moves or abilities that would prevent it from actively leaving battle.",
+    "short_description": "Held: Holder can bypass all trapping effects and switch out. Multi-turn moves still cannot be switched out of.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Big Root",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: HP restored from Absorb, Aqua Ring, Drain Punch, Dream Eater, Giga Drain, Ingrain, Leech Life, Leech Seed, and Mega Drain is increased by 30%.  Damage inflicted is not affected.",
+    "short_description": "Held: Increases HP recovered from draining moves, Ingrain, and Aqua Ring by 3/10 (30%).",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Choice Specs",
+    "cost": 4000,
+    "category": "choice",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the holder's Special Attack by 50%, but restricts it to the first move it uses until it leaves battle or loses this item.  If this item is swapped for another Choice item via Trick or Switcheroo, the holder's restriction is still lifted, but it will again be restricted to the next move it uses.\n(Quirk: If the holder is switched in by U-Turn and it also knows U-Turn, U-Turn becomes its restricted move.)",
+    "short_description": "Held: Increases Special Attack by 50%, but restricts the holder to only one move.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Flame Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Fire moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Fire.",
+    "short_description": "Held: Fire-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Fire.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Splash Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Water moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Water.",
+    "short_description": "Held: Water-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Water.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Zap Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Electric moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Electric.",
+    "short_description": "Held: Electric-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Electric.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Meadow Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Grass moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Grass.",
+    "short_description": "Held: Grass-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Grass.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Icicle Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Ice moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Ice.",
+    "short_description": "Held: Ice-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Ice.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Fist Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Fighting moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Fighting.",
+    "short_description": "Held: Fighting-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Fighting.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Toxic Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Poison moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Poison.",
+    "short_description": "Held: Posion-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Posion.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Earth Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Ground moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Ground.",
+    "short_description": "Held: Ground-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Ground.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Sky Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Flying moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Flying.",
+    "short_description": "Held: Flying-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Flying.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Mind Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Psychic moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Psychic.",
+    "short_description": "Held: Psychic-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Psychic.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Insect Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Bug moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Bug.",
+    "short_description": "Held: Bug-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Bug.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Stone Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Rock moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Rock.",
+    "short_description": "Held: Rock-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Rock.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Spooky Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Ghost moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Ghost.",
+    "short_description": "Held: Ghost-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Ghost.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Draco Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Dragon moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Dragon.",
+    "short_description": "Held: Dragon-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Dragon.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Dread Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Dark moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Dark.",
+    "short_description": "Held: Dark-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Dark.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Iron Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [
+      "holdable",
+      "holdable-active",
+      "underground"
+    ],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Steel moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Steel.",
+    "short_description": "Held: Steel-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Steel.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Odd Incense",
+    "cost": 2000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Psychic moves by 20%.",
+    "short_description": "Held: Psychic-Type moves from holder do 20% more damage. Breeding: Mr. Mime begets a Mime Jr. Egg.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Rock Incense",
+    "cost": 2000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Rock moves by 20%.",
+    "short_description": "Held: Rock-Type moves from holder do 20% more damage. Breeding: Sudowoodo begets a Bonsly Egg.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Full Incense",
+    "cost": 5000,
+    "category": "bad-held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: The holder will go last within its move's priority bracket, regardless of Speed.  If multiple Pokémon within the same priority bracket are subject to this effect, the slower Pokémon will go first.  The holder will move after Pokémon with Stall.  If the holder has Stall, Stall is ignored.  This item ignores Trick Room.",
+    "short_description": "Held: Holder moves last in its priority bracket. Breeding: Snorlax begets a Munchlax Egg.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": [
+      "if multiple pokémon within the same priority bracket are subject to this effect, the slower pokémon will go first"
+    ],
+    "drawbacks": null,
+    "item_role": {
+      "category": "Offensive",
+      "subcategory": "Priority",
+      "details": {}
+    }
+  },
+  {
+    "name": "Wave Incense",
+    "cost": 2000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Water moves by 20%.",
+    "short_description": "Held: Water-Type moves from holder do 20% more damage. Breeding: Mantine begets a Mantyke Egg.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Rose Incense",
+    "cost": 2000,
+    "category": "type-enhancement",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Increases the power of the holder's Grass moves by 20%.",
+    "short_description": "Held: Grass-Type moves from holder do 20% more damage. Breeding: Roselia or Roserade beget a Budew Egg.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Luck Incense",
+    "cost": 11000,
+    "category": "training",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: Doubles the money the trainer receives after an in-game trainer battle.  This effect cannot apply more than once to the same battle.",
+    "short_description": "Held: Doubles the money earned from a battle. Does not stack with Amulet Coin. Breeding: Chansey and Blissey beget a Happiny Egg.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Pure Incense",
+    "cost": 6000,
+    "category": "training",
+    "attributes": [
+      "holdable"
+    ],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held by lead Pokémon: Prevents wild battles with Pokémon that are lower level than the holder.",
+    "short_description": "Prevents wild encounters of level lower than your party's lead Pokémon. Breeding: Chimecho begets a Chingling Egg.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Disruption",
+      "details": {}
+    }
+  },
+  {
+    "name": "Protector",
+    "cost": 2000,
+    "category": "evolution",
+    "attributes": [],
+    "fling_power": 80,
+    "fling_effect": null,
+    "description": "Held by Rhydon: Evolves the holder into Rhyperior when traded.",
+    "short_description": "Traded on a Rhydon: Holder evolves into Rhyperior.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Electirizer",
+    "cost": 2000,
+    "category": "evolution",
+    "attributes": [],
+    "fling_power": 80,
+    "fling_effect": null,
+    "description": "Held by Electabuzz: Evolves the holder into Electivire when traded.",
+    "short_description": "Traded on an Electabuzz: Holder evolves into Electivire.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Magmarizer",
+    "cost": 2000,
+    "category": "evolution",
+    "attributes": [],
+    "fling_power": 80,
+    "fling_effect": null,
+    "description": "Held by Magmar: Evolves the holder into Magmortar when traded.",
+    "short_description": "Traded on a Magmar: Holder evolves into Magmortar.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Dubious Disc",
+    "cost": 2000,
+    "category": "evolution",
+    "attributes": [],
+    "fling_power": 50,
+    "fling_effect": null,
+    "description": "Held by Porygon2: Evolves the holder into Porygon-Z when traded.",
+    "short_description": "Traded on a Porygon2: Holder evolves into Porygon-Z.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Reaper Cloth",
+    "cost": 2000,
+    "category": "evolution",
+    "attributes": [],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held by Dusclops: Evolves the holder into Dusknoir when traded.",
+    "short_description": "Traded on a Dusclops: Holder evolves into Dusknoir.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Razor Claw",
+    "cost": 5000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 80,
+    "fling_effect": null,
+    "description": "Held: Raises the holder's critical hit counter by 1.\nHeld by Sneasel: Evolves the holder into Weavile when it levels up during the night.",
+    "short_description": "Held: Raises the holder's critical hit ratio by one stage. Held by a Sneasel while levelling up at night: Holder evolves into Weavile.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Razor Fang",
+    "cost": 5000,
+    "category": "held-items",
+    "attributes": [
+      "holdable",
+      "holdable-active"
+    ],
+    "fling_power": 30,
+    "fling_effect": "flinch",
+    "description": "Held: When the holder attacks with most damaging moves, provides an extra 11.7% (30/256) chance for the target to flinch.\nHeld by Gligar: Evolves the holder into Gliscor when it levels up.",
+    "short_description": "Held: Damaging moves gain a 10% chance to make their target flinch. Held by a Gligar while levelling up: Holder evolves into Gliscor.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Griseous Orb",
+    "cost": 0,
+    "category": "species-specific",
+    "attributes": [],
+    "fling_power": 60,
+    "fling_effect": null,
+    "description": "Held by giratina\n:   Holder's dragon and ghost moves have 1.2× their base power.\n\n    Holder is in Origin Forme.\n\nThis item cannot be held by any Pokémon but Giratina.  When you enter the Union Room or connect to Wi-Fi, this item returns to your bag.",
+    "short_description": "Boosts the damage from Giratina's Dragon-type and Ghost-type moves by 20%, and transforms it into Origin Forme.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Douse Drive",
+    "cost": 0,
+    "category": "species-specific",
+    "attributes": [],
+    "fling_power": 70,
+    "fling_effect": null,
+    "description": "Held by genesect\n:   Holder's buster is blue, and its techno blast is water-type.",
+    "short_description": "Grants Genesect a blue, Water-type Techno Blast.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Shock Drive",
+    "cost": 0,
+    "category": "species-specific",
+    "attributes": [],
+    "fling_power": 70,
+    "fling_effect": null,
+    "description": "Held by genesect\n:   Holder's buster is yellow, and its techno blast is electric-type.",
+    "short_description": "Grants Genesect a yellow, Electric-type Techno Blast.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Burn Drive",
+    "cost": 0,
+    "category": "species-specific",
+    "attributes": [],
+    "fling_power": 70,
+    "fling_effect": null,
+    "description": "Held by genesect\n:   Holder's buster is red, and its techno blast is fire-type.",
+    "short_description": "Grants Genesect a red, Fire-type Techno Blast.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Chill Drive",
+    "cost": 0,
+    "category": "species-specific",
+    "attributes": [],
+    "fling_power": 70,
+    "fling_effect": null,
+    "description": "Held by genesect\n:   Holder's buster is white, and its techno blast becomes ice-type.",
+    "short_description": "Grants Genesect a white, Ice-type Techno Blast.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Eviolite",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 40,
+    "fling_effect": null,
+    "description": "Held by a Pokémon that is not fully evolved\n:   Holder has 1.5× Defense and Special Defense.",
+    "short_description": "Held: Holder has 1.5× Defense and Special Defense, as long as it's not fully evolved.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Float Stone",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held\n:   Holder has 0.5× weight.",
+    "short_description": "Held: Holder has 0.5× weight.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Rocky Helmet",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 60,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder is hit by a contact move, the attacking Pokémon takes 1/6 its max HP in damage.",
+    "short_description": "Held: When the holder is hit by a contact move, the attacking Pokémon takes 1/6 its max HP in damage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Air Balloon",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held\n:   Holder is immune to ground-type moves, spikes, toxic spikes, and arena trap.\n\n    This effect does not apply during gravity or ingrain.\n\n    When the holder takes damage from a move, this item is consumed.",
+    "short_description": "Held: Grants immunity to Ground-type moves, Spikes, and Toxic Spikes. Consumed when the holder takes damage from a move.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Red Card",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder takes damage directly from a move and does not faint, it switches out for another random, non-fainted Pokémon in its party.\nThis effect does not activate if another effect prevents the holder from switching out.",
+    "short_description": "Held: When the holder takes damage from a move, the opponent switches out for another random party Pokémon. Consumed after use.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Disruption",
+      "details": {}
+    }
+  },
+  {
+    "name": "Binding Band",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held\n:   Moves used by the holder that trap and damage a target for multiple turns (e.g. bind, fire spin) inflict twice their usual per-turn damage.",
+    "short_description": "Held: Doubles the per-turn damage of multi-turn trapping moves.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Absorb Bulb",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder takes water-type damage from a move, its Special Attack rises by one stage and this item is consumed.",
+    "short_description": "Held: Raises the holder's Special Attack by one stage when it takes Water-type damage.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Cell Battery",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder takes electric-type damage from a move, its Attack rises by one stage and this item is consumed.",
+    "short_description": "Held: Raises the holder's Attack by one stage when it takes Electric-type damage.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Eject Button",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder takes damage directly from a move and does not faint, it switches out for another non-fainted Pokémon in its party, as chosen by the Trainer.\nThis effect does not activate if another effect prevents the holder from switching out.",
+    "short_description": "Held: When the holder takes damage from a move, it switches out for a party Pokémon of the Trainer's choice.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Disruption",
+      "details": {}
+    }
+  },
+  {
+    "name": "Fire Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging fire-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging fire-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Water Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging water-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging water-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Electric Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging electric-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging electric-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Grass Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging grass-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging grass-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Ice Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging ice-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging ice-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Fighting Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging fighting-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging fighting-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Poison Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging poison-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging poison-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Ground Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging ground-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging ground-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Flying Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging flying-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging flying-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Psychic Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging psychic-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging psychic-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Bug Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging bug-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging bug-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Rock Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging rock-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging rock-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Ghost Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging ghost-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging ghost-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Dark Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging dark-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging dark-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Steel Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging steel-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging steel-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Dragon Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging dragon-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging dragon-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Normal Gem",
+    "cost": 4000,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held\n:   When the holder uses a damaging normal-type move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging normal-type move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Weakness Policy",
+    "cost": 1000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 80,
+    "fling_effect": null,
+    "description": "Held: When the holder is hit by a super effective move, its Attack and Special Attack raise by two stages.",
+    "short_description": "Held: When the holder is hit by a super effective move, its Attack and Special Attack raise by two stages.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Assault Vest",
+    "cost": 1000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 80,
+    "fling_effect": null,
+    "description": "Raises the holder's Special Defense to 1.5×.  Prevents the holder from selecting a status move.",
+    "short_description": "Raises the holder's Special Defense to 1.5×.  Prevents the holder from selecting a status move.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Disruption",
+      "details": {}
+    }
+  },
+  {
+    "name": "Pixie Plate",
+    "cost": 1000,
+    "category": "plates",
+    "attributes": [],
+    "fling_power": 90,
+    "fling_effect": null,
+    "description": "Held: Fairy-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Fairy.",
+    "short_description": "Held: Fairy-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Fairy.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Luminous Moss",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: If the holder is hit by a damaging Water move, it consumes this item and raises its Special Defense by one stage.",
+    "short_description": "Held: If the holder is hit by a damaging Water move, raises its Special Defense by one stage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Snowball",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: If the holder is hit by a damaging Ice move, raises its Attack by one stage.",
+    "short_description": "Held: If the holder is hit by a damaging Ice move, raises its Attack by one stage.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Fairy Gem",
+    "cost": 200,
+    "category": "jewels",
+    "attributes": [],
+    "fling_power": 0,
+    "fling_effect": null,
+    "description": "Held: When the holder uses a damaging Fairy move, the move has 1.5× power and this item is consumed.",
+    "short_description": "Held: When the holder uses a damaging Fairy move, the move has 1.5× power and this item is consumed.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Terrain Extender",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 60,
+    "fling_effect": null,
+    "description": "Held: When the holder changes the Terrain (whether by move or ability), it will last  8 turns instead of 5.",
+    "short_description": "Held: Extends the holder's Terrain effects to 8 turns.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Protective Pads",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 30,
+    "fling_effect": null,
+    "description": "Held: Prevents side effects of contact moves used on the holder.",
+    "short_description": "Held: Prevents side effects of contact moves used on the holder.",
+    "exclusive_to": null,
+    "use_type": "passive",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Disruption",
+      "details": {}
+    }
+  },
+  {
+    "name": "Electric Seed",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: If the holder enters battle during Electric Terrain, or if Electric Terrain is activated while the holder is in battle, this item is consumed and the holder's Defense raises by one stage.",
+    "short_description": "Held: Consumed on Electric Terrain and raises the holder's Defense by one stage.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Psychic Seed",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: If the holder enters battle during Psychic Terrain, or if Psychic Terrain is activated while the holder is in battle, this item is consumed and the holder's Special Defense raises by one stage.",
+    "short_description": "Held: Consumed on Psychic Terrain and raises the holder's Special Defense by one stage.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Misty Seed",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: If the holder enters battle during Misty Terrain, or if Misty Terrain is activated while the holder is in battle, this item is consumed and the holder's Special Defense raises by one stage.",
+    "short_description": "Held: Consumed on Misty Terrain and raises the holder's Special Defense by one stage.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  },
+  {
+    "name": "Grassy Seed",
+    "cost": 4000,
+    "category": "held-items",
+    "attributes": [],
+    "fling_power": 10,
+    "fling_effect": null,
+    "description": "Held: If the holder enters battle during Grassy Terrain, or if Grassy Terrain is activated while the holder is in battle, this item is consumed and the holder's Defense raises by one stage.",
+    "short_description": "Held: Consumed on Grassy Terrain and raises the holder's Defense by one stage.",
+    "exclusive_to": null,
+    "use_type": "single_use",
+    "conditions": null,
+    "drawbacks": null,
+    "item_role": {
+      "category": "Utility",
+      "subcategory": "Other",
+      "details": {}
+    }
+  }
+]
