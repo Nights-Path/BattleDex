@@ -1,0 +1,254 @@
+{
+  "models.dart": {
+    "Architecture Layer": "Model",
+    "Location": "lib/models/models.dart",
+    "Enums": [
+      {
+        "Name": "Stat",
+        "Type": "Enum",
+        "Outputs": [
+          "hp",
+          "attack",
+          "defense",
+          "..."
+        ],
+        "Description": "Basic stat categories",
+        "Status": "\u2705 Complete"
+      },
+      {
+        "Name": "Nature",
+        "Type": "Enum",
+        "Outputs": [
+          "serious",
+          "adamant",
+          "timid",
+          "..."
+        ],
+        "Description": "Personality modifier affecting stat growth",
+        "Status": "\u2705 Complete"
+      },
+      {
+        "Name": "DamageClass",
+        "Type": "Enum",
+        "Outputs": [
+          "physical",
+          "special",
+          "status"
+        ],
+        "Description": "Damage type classification",
+        "Status": "\u2705 Complete"
+      },
+      {
+        "Name": "Type",
+        "Type": "Enum",
+        "Outputs": [
+          "fire",
+          "water",
+          "electric",
+          "..."
+        ],
+        "Description": "Pok\u00e9mon elemental types",
+        "Status": "\u2705 Complete"
+      },
+      {
+        "Name": "Room",
+        "Type": "Enum",
+        "Outputs": [
+          "none",
+          "trickRoom",
+          "magicRoom",
+          "wonderRoom"
+        ],
+        "Description": "Special battle conditions",
+        "Status": "\u2705 Complete"
+      }
+    ],
+    "Classes": [
+      {
+        "Name": "BattleContext",
+        "Type": "Class",
+        "Inputs": [
+          "target Pok\u00e9mon",
+          "move",
+          "stats",
+          "conditions"
+        ],
+        "Outputs": "Modified evaluation data",
+        "Description": "Scenario context for stat optimization",
+        "Status": "\ud83e\uddea Planned"
+      },
+      {
+        "Name": "Meta",
+        "Type": "Class",
+        "Outputs": "Fields: ailment, category, critRate, etc.",
+        "Description": "Metadata for moves",
+        "Status": "\u2705 Complete"
+      },
+      {
+        "Name": "StatChange",
+        "Type": "Class",
+        "Outputs": "Fields: stat, stage, target",
+        "Description": "Represents changes to stats",
+        "Status": "\u2705 Complete"
+      },
+      {
+        "Name": "FieldCondition",
+        "Type": "Class",
+        "Outputs": "Fields: weather, terrain",
+        "Description": "Describes field effects",
+        "Status": "\u2705 Complete"
+      },
+      {
+        "Name": "StatusCondition",
+        "Type": "Class",
+        "Outputs": "Fields: status, chance, target",
+        "Description": "Potential status ailments",
+        "Status": "\u2705 Complete"
+      },
+      {
+        "Name": "BattleStats",
+        "Type": "Class",
+        "Outputs": "Fields: stat, stage",
+        "Description": "In-battle stat stage modifiers",
+        "Status": "\u2705 Complete"
+      },
+      {
+        "Name": "BattleMechanics",
+        "Type": "Class",
+        "Outputs": "Fields: trap, stab, abilityManipulation, battleStats",
+        "Description": "Additional flags and mechanics logic",
+        "Status": "\u2705 Complete"
+      },
+      {
+        "Name": "Ability",
+        "Type": "Class",
+        "Outputs": "Fields: name, statChange, fieldCondition, statusCondition",
+        "Description": "Ability-level effects",
+        "Status": "\u2705 Complete"
+      }
+    ]
+  },
+  "damage_calc.dart": {
+    "Architecture Layer": "Model / Engine",
+    "Location": "lib/engine/damage_calc.dart",
+    "High-Level Description": "Handles all simulation and scoring for move damage calculation, ability impact evaluation, stat optimization recommendation",
+    "Functions": [
+      {
+        "Name": "evaluateMove()",
+        "Inputs": [
+          "move",
+          "defender",
+          "context"
+        ],
+        "Outputs": "avg score",
+        "Description": "Simulates damage and averages percent dealt + usage"
+      },
+      {
+        "Name": "simulateAbilityWithMoves()",
+        "Inputs": [
+          "ability",
+          "topMoves",
+          "context"
+        ],
+        "Outputs": "avg score",
+        "Description": "Evaluates top moves with each ability"
+      },
+      {
+        "Name": "evaluateItemRecommendations()",
+        "Inputs": [
+          "pokemon",
+          "metaDefenders"
+        ],
+        "Outputs": "item list",
+        "Description": "Recommends item from meta match"
+      },
+      {
+        "Name": "runElbowAnalysis()",
+        "Inputs": [
+          "stat",
+          "context"
+        ],
+        "Outputs": "EV plot",
+        "Description": "Finds diminishing return point"
+      },
+      {
+        "Name": "runEVOptimizer()",
+        "Inputs": [
+          "battleContext",
+          "lockedStats",
+          "maxEVs"
+        ],
+        "Outputs": "optimized EV spread",
+        "Description": "Allocates EVs to most valuable stats"
+      }
+    ]
+  },
+  "optimization_modal.dart": {
+    "Architecture Layer": "View / Modal",
+    "Location": "lib/ui/modals/optimization_modal.dart",
+    "Description": "UI for selecting optimization conditions like damage, speed, and survival",
+    "Features": [
+      {
+        "Element": "TargetPicker",
+        "Description": "Uses team slot selector for targets"
+      },
+      {
+        "Element": "Checkbox",
+        "Description": "Toggle each target condition"
+      },
+      {
+        "Element": "FieldSelector",
+        "Description": "Dropdowns for terrain, weather, etc."
+      },
+      {
+        "Element": "ConflictCheck",
+        "Description": "Detects conflicting conditions"
+      }
+    ]
+  },
+  "optimization_popup.dart": {
+    "Architecture Layer": "View / Component",
+    "Location": "lib/ui/components/optimization_popup.dart",
+    "Description": "Displays animation and waiting screen during optimization",
+    "Features": [
+      {
+        "Element": "SpriteVignette",
+        "Description": "Two animated battling Pok\u00e9mon"
+      },
+      {
+        "Element": "AnimatedText",
+        "Description": "Displays loading message"
+      },
+      {
+        "Element": "BlockingLayer",
+        "Description": "Prevents interaction while loading"
+      }
+    ]
+  },
+  "team_builder_logic.dart": {
+    "Architecture Layer": "Controller",
+    "Location": "lib/controllers/team_builder_logic.dart",
+    "Added Functions": [
+      {
+        "Name": "recommendMoves()",
+        "Purpose": "Top 6 move suggestions + fallback"
+      },
+      {
+        "Name": "recommendAbility()",
+        "Purpose": "Highest avg ability across moves"
+      },
+      {
+        "Name": "recommendItem()",
+        "Purpose": "Meta-based item recommendation"
+      },
+      {
+        "Name": "generateEVRecommendation()",
+        "Purpose": "Run optimization with elbows + reduction"
+      },
+      {
+        "Name": "validateTargetFeasibility()",
+        "Purpose": "Warn if any targets conflict or can't be met"
+      }
+    ]
+  }
+}
